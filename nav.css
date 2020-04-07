@@ -1,0 +1,216 @@
+.customnav {
+
+  
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 15px 0px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+  }
+  
+  .customnav > .customnav-header {
+    display: inline;
+  }
+  
+  .customnav > .customnav-header > .customnav-title {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #0087ba !important;
+    padding: 10px 10px 10px 10px;
+  }
+  
+
+  .customnav > .customnav-header > .customnav-title > a{
+    text-decoration: none;
+    color: #0087ba;
+    margin-left: 0.3rem;
+  }
+  .customnav > .customnav-btn {
+    display: none;
+    text-align: -webkit-center;
+    cursor: pointer;
+  }
+  
+  .customnav > .customnav-links {
+    /* display: inline; */
+    float: right;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .customnav > .customnav-links > a {
+    display: inline-block;
+    padding: 14px 10px 14px 10px;
+    text-decoration: none;
+    color: #0087ba;
+  }
+  
+  .customnav > .customnav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .customnav > #customnav-check {
+    display: none;
+  }
+  #foo{
+    width: 20vw;
+    height: auto;
+  }
+
+  .bottom-logo{
+    height: 40px;
+  }
+  @media (max-width: 600px) {
+   
+    .bottom-logo{
+      height: 35px;
+      margin-top: 5%;
+    }
+    #foo{
+      width: 60vw;
+      height: auto;
+    }
+    .customnav > .customnav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+    top: 20%;
+      text-align: -webkit-center
+    }
+    .customnav > .customnav-btn > label {
+      display: inline-block;
+      /* width: 50px;
+      height: 50px; */
+      padding: 13px 11px 0px 11px;
+      cursor: pointer;
+    }
+    /* .customnav > .customnav-btn > label:hover,
+    .customnav #customnav-check:checked ~ .customnav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3); 
+    } */
+    .customnav > .customnav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid grey;
+    }
+    .customnav > .customnav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 70px;
+      left: 0px;
+    }
+    .customnav > .customnav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .customnav > #customnav-check:not(:checked) ~ .customnav-links {
+      height: 0px;
+    }
+    .customnav > #customnav-check:checked ~ .customnav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
+
+  footer{
+    background-color: #fff;
+   
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 4px;
+
+    /* height: 35px; */
+  }
+
+  footer > .row > .footer-links {
+    /* display: inline; */
+    float: left;
+    cursor: pointer;
+  }
+  
+  footer > .row > .footer-links > a {
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    color: #0087ba;
+  }
+
+  footer > .footer-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
+  @media (max-width: 600px) {
+    footer{
+      background-color: #fff;
+   
+      box-shadow: 0 0 -5px rgba(0,0,0,.3);
+      padding: 4px;
+
+      /* height: 40px; */
+    }
+  
+    footer > .row > .footer-links {
+      /* display: inline; */
+      float: left;
+      cursor: pointer;
+    }
+    
+    footer > .row > .footer-links > a {
+      display: inline-block;
+      font-size: small;
+      padding: 13px 5px;
+      text-decoration: none;
+      color: #0087ba;
+    }
+  
+   
+  }
+
+
+  .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 20px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    z-index: 100;
+}
+
+.column {
+  float: left;
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.customnav > customnav-header > .customnav-title .header-logo > img,
+.customnav > customnav-header > .customnav-title .header-logo > a {
+        display: inline-block;
+    }
+
+.customnav-header{
+margin: auto;
+}
+
+.customnav-header > .customnav-title.header-logo > img{
+float: left;
+}
