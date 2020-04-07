@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 07 Apr 2020 11:05:53 at https://www.livecoronatest.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.livecoronatest.com/ -O1 "C:\My Web Sites\bhvbb" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:06:24	Error: 	"Not Found" (404) at link ssl.gstatic.com/gb/images/a/71060be5b3.png (from https://www.livecoronatest.com/component/styles/map.css)
+11:06:25	Error: 	"Not Found" (404) at link ssl.gstatic.com/gb/images/a/e2c0b463b4.png (from https://www.livecoronatest.com/component/styles/map.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 20 seconds : 68 links scanned, 65 files written (1245986 bytes overall), 3 files updated [44247 bytes received at 553 bytes/sec], 1.0 requests per connection
+(2 errors, 0 warnings, 0 messages)

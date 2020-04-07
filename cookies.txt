@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.livecoronatest.com	TRUE	/	FALSE	1999999999	PHPSESSID	uae2jmp6saopodqm6d6r3u4q37
+
